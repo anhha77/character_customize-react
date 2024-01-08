@@ -78,7 +78,7 @@ function App() {
                   item={fashion[element]}
                   index={index}
                   category={element}
-                  key={Date.now() + 15 + index}
+                  key={Date.now() + index}
                 />
               ))}
             </div>
